@@ -61,4 +61,4 @@ for index, row in df.iterrows():
     #print(f"Sent row {index+1} - Status: {response.status_code}")
     #print(response.text)
 
-    time.sleep(1)
+    time.sleep(3600)
