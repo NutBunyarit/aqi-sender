@@ -18,7 +18,7 @@ import time
 from datetime import datetime, timedelta
 
 # Load
-df = pd.read_csv('../predicted_with_aqi_ready.csv')
+df = pd.read_csv('predicted_with_aqi_ready.csv')
 
 # URL
 url = 'https://aqi-prediction.azurewebsites.net/insert_data_predict'
