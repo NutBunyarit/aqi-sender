@@ -55,10 +55,10 @@ for index, row in df.iterrows():
 
     print(f"Sending payload: {payload}")  # ✅ ดูก่อนว่าตรง
 
-    response = requests.post(url, headers=headers , json=payload)
+    #response = requests.post(url, headers=headers , json=payload)
 
 
-    print(f"Sent row {index+1} - Status: {response.status_code}")
-    print(response.text)
+    #print(f"Sent row {index+1} - Status: {response.status_code}")
+    #print(response.text)
 
     time.sleep(1)
